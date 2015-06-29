@@ -73,7 +73,7 @@ public class ToolApp {
                 String get = list.get(i);
                 System.out.println("get:"+get);
                 BufferedReader strin=new BufferedReader(new InputStreamReader(System.in));  
-                System.out.println("请输入"+get+"的路径");
+                System.out.println("请输入"+get+"的路径6636223");
                 try {
                     String str = strin.readLine();
                     map.put(get, str);
@@ -87,7 +87,7 @@ public class ToolApp {
     
     private void display(){
         if(map.size()>0){
-            System.out.println("文件对应路径如下：");
+            System.out.println("文件对应路径如下333333333333：");
             for (Map.Entry<String, String> entrySet : map.entrySet()) {
                 String key = entrySet.getKey();
                 String value = entrySet.getValue();
