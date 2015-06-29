@@ -73,7 +73,7 @@ public class ToolApp {
                 String get = list.get(i);
                 System.out.println("get:"+get);
                 BufferedReader strin=new BufferedReader(new InputStreamReader(System.in));  
-                System.out.println("请输入"+get+"的路径");
+                System.out.println("请输入"+get+"的路径11");
                 try {
                     String str = strin.readLine();
                     map.put(get, str);
