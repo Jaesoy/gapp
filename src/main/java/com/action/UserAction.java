@@ -13,7 +13,7 @@ import com.opensymphony.xwork2.ActionSupport;
  */
 public class UserAction extends ActionSupport{
     public String login(){
-        System.out.println("login now");
+        System.out.println("login now111");
         return "login";
     }
 }
